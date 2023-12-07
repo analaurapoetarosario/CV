@@ -1,0 +1,82 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Estilos para el contenedor del CV */
+.cv-container {
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden; /*Controla el comportamiento de los contenidos 
+    que no caben en su elemento contenedor*/
+}
+
+/* Estilos para el encabezado del CV */
+.cv-header {
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    transition: all 0.3s ease;
+}
+
+/* Estilos para la foto de perfil */
+.cv-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #fff;
+    transition: all 0.3s ease;
+ 
+}
+
+/* Efecto hover para la foto de perfil 
+Generalmente se activa cuando el usuario se 
+desplaza sobre un elemento con el cursor (puntero del mouse)*/
+.cv-header img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para el contenido del CV */
+.cv-content {
+    padding: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 30px;
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+/* Estilos para los elementos de lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos del CV */
+.cv-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover para los elementos del CV */
+.cv-item:hover {
+    background-color: #f4f4f4;
+}
